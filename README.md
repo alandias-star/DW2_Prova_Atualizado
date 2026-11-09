@@ -14,7 +14,7 @@
 - **Space Grotesk**: Utilizada em logotipos, títulos principais e preços.
 - **Inter**: Utilizada no corpo do texto, navegação, botões e campos de formulário.
 
-## 🚀 Recursos Implementados
+##  Recursos Implementados
 
 - **HTML5 Semântico**: Estrutura organizada com tags como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<footer>`.
 - **Layout Responsivo**: Grade de produtos construída com CSS Grid e Flexbox, adaptada para dispositivos móveis através de _media queries_.
