@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOJA - FIFAGAMES</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Grotesk&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <button id="theme">🌙 Escuro</button>
+        <div class="brand">
+          <h1 class="brand-title">FIFA<span>GAMES</span></h1>
+        </div>
+        <nav class="main-nav">
+          <a href="carrinho.html" class="nav-btn">Carrinho</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <article>
+          <h2>O melhor do mundo do FIFA</h2>
+          <p>
+            Adquira todas as versões do jogo de futebol mais popular pelos
+            melhores preços
+          </p>
+        </article>
+      </section>
+
+      <section class="card">
+        <h3>Jogos</h3>
+        <div id="listaProdutos" class="grid"></div>
+      </section>
+
+      <section class="card">
+        <h2>Carrinho de Compras</h2>
+        <div id="itensCarrinho"></div>
+
+        <div class="carrinho-opcoes">
+          <label>
+            Tipo de Entrega:
+            <select id="tipoEntrega">
+              <option value="retirada">Retirada na Loja</option>
+              <option value="frete">
+                Frete para toda São Paulo(+ R$ 30,00)
+              </option>
+            </select>
+          </label>
+          <p><strong>Subtotal:</strong> R$ <span id="subtotal">0.00</span></p>
+          <p><strong>Taxa:</strong> R$ <span id="taxa">0.00</span></p>
+          <p><strong>Total:</strong> R$ <span id="total">0.00</span></p>
+          <button id="btnLimparCarrinho" class="danger">Limpar Carrinho</button>
+        </div>
+
+        <hr />
+
+        <h3>Finalizar Pedido</h3>
+        <form id="formPedido">
+          <input
+            type="text"
+            id="nomeCliente"
+            placeholder="Nome do Cliente"
+            required
+          />
+          <button type="submit">Confirmar e Finalizar Pedido</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2026 FIFAGAMES</p>
+        <p><strong>Endereço: Avenida Paulista, 100</strong></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
